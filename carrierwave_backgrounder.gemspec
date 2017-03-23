@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "carrierwave", [">= 0.5", "< 2.0"]
   s.add_dependency "mime-types", ["~> 2.99"]
+  s.add_dependency "aws-sdk"
 
   s.add_development_dependency "rspec", ["~> 3.5.0"]
   s.add_development_dependency "rake"
